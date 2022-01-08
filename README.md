@@ -17,3 +17,7 @@ wasm-pack build --target web
 ```sh
 python3 -m http.server
 ```
+
+### References
+
+[1](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
