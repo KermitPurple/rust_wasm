@@ -6,10 +6,12 @@
     </head>
     <body>
         <script type="module">
-            import init, {greet} from "./pkg/wasm_test.js";
+            import init, * as wasm from "./pkg/wasm_test.js";
             init()
             .then(() => {
-                greet("Shanye")
+                wasm.greet("Shane");
+                console.log(wasm.factorial(3));
+                wasm.show_fact();
             });
         </script>
     </body>
