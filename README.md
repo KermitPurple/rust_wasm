@@ -19,5 +19,7 @@ python3 -m http.server
 ```
 
 ### References
-
-[1](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
+- [Mozilla Rust To Wasm](https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_wasm)
+- [Mozilla Web Asembly Concepts](https://developer.mozilla.org/en-US/docs/WebAssembly/Concepts)
+- [Rust Wasm book](https://rustwasm.github.io/wasm-bindgen/introduction.html)
+- [Wasmer Docs](https://docs.wasmer.io/integrations/js/wasi/browser/examples/handling-io)
