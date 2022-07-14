@@ -7,12 +7,12 @@
     <body>
         <script type="module">
             import init, * as wasm from "./pkg/wasm_test.js";
-            init()
-            .then(() => {
-                wasm.greet("Shane");
-                console.log(wasm.factorial(3));
-                wasm.show_fact();
-            });
+
+            await init()
+
+            wasm.greet("Shane");
+            console.log(wasm.factorial(3));
+            wasm.show_fact();
         </script>
     </body>
 </html>
